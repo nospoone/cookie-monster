@@ -186,7 +186,7 @@ var cookieMonster = {
 	benchmark: false,
 	benchmarkLength: 5,
 	getGameTime: function () { return new Date(new Date().getTime() - Game.startDate).getMinutes();	},
-	clickUpgrades: [0, 1, 2, 3, 4, 5, 6, 43, 75, 76, 77, 78, 82, 109, 119];
+	clickUpgrades: [0, 1, 2, 3, 4, 5, 6, 43, 75, 76, 77, 78, 82, 109, 119]
 }
 
 // Add helpers
