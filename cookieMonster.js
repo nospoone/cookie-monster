@@ -224,10 +224,3 @@ $('body').on('click', '.cookieMonsterWindow a.apply', function () {
 	Game.fps = parseInt($('.fps').val(), 10);
 	cookieMonster.config.mode = $('.type').val();
 });
-
-$.each(Game.UpgradesById, function () { 
-	var desc = this.desc.toLowerCase();
-	if (desc.indexOf('clicking') > -1 || desc.indexOf('mouse') > -1) {
-		console.log(this.id)
-	}
-});
